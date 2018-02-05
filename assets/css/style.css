@@ -1,27 +1,27 @@
 .body
 {
+ box-sizing: border-box;
     background-image: url("../image/bg.png");
 }
 
 .topbar{
     max-width: 100%;
-    position: relative;
+  
     height: 100px;
     background-color: #ffffff;
-    width: 100%;
+  
 }
 .header
 {
-    display: block;
-    clear: both;
-float: none;
+text-align: center;
 height:95px;
-padding: 5px 5px 0px 5px;    
+padding: 10px 5px 0px 5px;    
 background-color: #4aaaa5;
 display: inline-block;
 margin-left:180px;
 font-family:Georgia, Times, Times New Roman, serif;
 color: #ffffff;
+
 
 }
 .nav
@@ -29,14 +29,13 @@ color: #ffffff;
     
  display: inline;
 
- 
+ overflow: hidden;
   
 margin-right:200px;
 padding-left: 50px;
-display: inline;
-
-
 }
+
+
 .container
 {
 background-image: url("../image/bg.png");
@@ -48,8 +47,6 @@ height: 100%;
 .main
 {
    
-  
-  
     margin:20px ;
     padding: 20px;
     width:650px;
@@ -61,13 +58,13 @@ height: 100%;
 {
    
 display: block;
-    float: right;
-    clear: both;
-padding: 5px 5px 5px 5px;
+float: left;
+clear: both;
+padding: 5px 5px 25px 10px;
 background-color:#ffffff;
 margin:20px 130px 20px 20px;
 width:270px;
-height:auto;
+height:135px;
 float:left;
 
 }
@@ -83,7 +80,7 @@ background-color:#666666;
     text-align: center;
 
 }
-
+/*
 #portfoliomain
 {
     
@@ -94,7 +91,7 @@ background-color:#666666;
    
     display: inline-block;
 }
-
+*/
 a
 { 
     text-align: center;
@@ -106,8 +103,9 @@ h2
 {
     color: #4aaaa5;
 }
-.p
+p
 {
     float: left;}
     .prof
-    {float: left;}
+    {float: left;
+    clear: both;}
